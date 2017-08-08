@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_cfXKEFaYEeaveJpPh4H7sw" name="FinalProj_Source_Date" dataPackage="_cfXKEVaYEeaveJpPh4H7sw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Kishore/Documents/INFO 7290 DWBI/Final Project - 02/Source Files/DimDate.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_cfXKEVaYEeaveJpPh4H7sw" name="default" dataManager="_cfXKEFaYEeaveJpPh4H7sw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cfXKElaYEeaveJpPh4H7sw" id="_PmuDsFaYEeaveJpPh4H7sw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKE1aYEeaveJpPh4H7sw" label="DateSK" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKFFaYEeaveJpPh4H7sw" label="DateAK" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKFVaYEeaveJpPh4H7sw" label="DatetimeAK" length="23" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKFlaYEeaveJpPh4H7sw" label="CalendarYear" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKF1aYEeaveJpPh4H7sw" label="CalendarYearLabel" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKGFaYEeaveJpPh4H7sw" label="CalendarQuarter" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKGVaYEeaveJpPh4H7sw" label="CalendarYearQuarter" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKGlaYEeaveJpPh4H7sw" label="CalendarQuarterLabel" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKG1aYEeaveJpPh4H7sw" label="CalendarMonth" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKHFaYEeaveJpPh4H7sw" label="CalendarYearMonth" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKHVaYEeaveJpPh4H7sw" label="CalendarMonthLabel" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKHlaYEeaveJpPh4H7sw" label="CalendarMonthAbbreviation" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKH1aYEeaveJpPh4H7sw" label="DayNumberOfYear" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKIFaYEeaveJpPh4H7sw" label="CalendarYearDay" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKIVaYEeaveJpPh4H7sw" label="CalendarWeek" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKIlaYEeaveJpPh4H7sw" label="CalendarWeekLabel" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKI1aYEeaveJpPh4H7sw" label="CalendarYearWeek" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKJFaYEeaveJpPh4H7sw" label="CalendarDayOfWeek" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKJVaYEeaveJpPh4H7sw" label="CalendarDayOfWeekLabel" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKJlaYEeaveJpPh4H7sw" label="IsWorkDay" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKJ1aYEeaveJpPh4H7sw" label="NorthAmericaSeason" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKKFaYEeaveJpPh4H7sw" label="EuropeSeason" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfXKKVaYEeaveJpPh4H7sw" label="AsiaSeason" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

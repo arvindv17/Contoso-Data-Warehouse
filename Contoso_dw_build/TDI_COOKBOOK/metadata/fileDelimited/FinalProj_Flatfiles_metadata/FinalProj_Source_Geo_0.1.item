@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_xiOMIVbVEeaveJpPh4H7sw" name="FinalProj_Source_Geo" dataPackage="_xiOMIlbVEeaveJpPh4H7sw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Kishore/Documents/INFO 7290 DWBI/Final Project - 02/Source Files/DimGeography.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_xiOMIlbVEeaveJpPh4H7sw" name="default" dataManager="_xiOMIVbVEeaveJpPh4H7sw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xiOMI1bVEeaveJpPh4H7sw" id="_glhacFbVEeaveJpPh4H7sw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOMJFbVEeaveJpPh4H7sw" label="GeographyKey" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzMFbVEeaveJpPh4H7sw" label="GeographyType" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzMVbVEeaveJpPh4H7sw" label="ContinentName" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzMlbVEeaveJpPh4H7sw" label="ContinentCode" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzM1bVEeaveJpPh4H7sw" label="CityName" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzNFbVEeaveJpPh4H7sw" label="StateProvinceName" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzNVbVEeaveJpPh4H7sw" label="StateProvinceCode" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzNlbVEeaveJpPh4H7sw" label="RegionCountryName" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzN1bVEeaveJpPh4H7sw" label="ISO_3166_numeric" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzOFbVEeaveJpPh4H7sw" label="ISO_3166_alpha_2" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzOVbVEeaveJpPh4H7sw" label="ISO_3166_alpha_3" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzOlbVEeaveJpPh4H7sw" label="ETLLoadID" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzO1bVEeaveJpPh4H7sw" label="LoadDate" length="23" talendType="id_Date" pattern="&quot;dd-MM-yyyy hh:mm:ss.000&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xiOzPFbVEeaveJpPh4H7sw" label="UpdateDate" length="23" talendType="id_Date" pattern="&quot;dd-MM-yyyy hh:mm:ss.000&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
